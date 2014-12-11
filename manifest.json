@@ -1,0 +1,11 @@
+{
+    "name" : "Force SafeSearch",
+    "manifest_version": 2,
+    "version" : "0.2",
+    "permissions" : ["http://*/*", "https://*/*"],
+    "description" : "Enables SafeSearch on Google, YouTube and Bing.",
+    "background": {
+        "scripts": ["jquery-1.11.1.min.js", "forceSafeSearch.js"],
+        "persistent": false
+    }
+}
